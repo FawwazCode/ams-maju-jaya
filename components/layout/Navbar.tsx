@@ -76,7 +76,7 @@ export default function Navbar() {
                                 <a 
                                     key={item.href}
                                     href={item.href}
-                                    onClick={() => setIsOpen(flase)}
+                                    onClick={() => setIsOpen(false)}
                                     className="rounded-xl px-4 py-3 text-sm font-medium text-gray-700 transition-colors hover:bg-red-50 hover:text-red-500"
                                 >
                                     {item.label}
